@@ -1,0 +1,14 @@
+
+//Choose a random color
+let button = document.querySelector('button')
+let body = document.querySelector('body')
+let colors = [ "purple", "light blue", "magenta", "green", "yellow"]
+
+body.style.backgroundcolor = " royal blue"
+button.addEventListener("click", changeBackground)
+
+function changeBackground() {
+for ( i = 0; i < colors.length; i++)
+body.style.backgroundColor = colors[colorIndex]
+}
+return colors
